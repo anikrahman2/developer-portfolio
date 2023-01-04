@@ -82,6 +82,7 @@ main{
   border-radius: 10px;
   padding: 130px 150px;
   text-align: center;
+  margin-top: 130px;
 }
 .section-title{
   color: #181818;
@@ -165,9 +166,13 @@ main{
 /* Contact Section Style  */
 .contant-container{
   display: flex;
+  justify-content: space-between;
   gap: 100px;
   background: #FFF8F3;
-  padding-top: 130px;
+  padding-top: 130px 200px;
+  margin-top: 130px;
+  width: 100%;
+  
 }
 input[type="text"], input[type="email"], textarea{
   display: block;
