@@ -2,6 +2,9 @@
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
+.section{
+  margin-top: 130px;
+}
 .header{
   background: #FFF8F3;
   background-image: url(../images/header_bg.png), url(../images/developer.png);
@@ -74,7 +77,7 @@ main{
 }
 /* About Section Styles */
 .about{
-  margin-top: 130px;
+  
   background: #fff8f3;
   border-radius: 10px;
   padding: 130px 150px;
@@ -127,4 +130,35 @@ main{
 .skill-paragraph{
   color: #757575;
   margin-top: 20px;
+}
+
+/* Resumi Styles */
+.resume-content{
+  display: flex;
+  gap: 24px;
+
+}
+.resume-item{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.resume-item .title{
+  color: #474747;
+  font-weight: 700;
+  font-size: 25px;
+  
+}
+.resume-item .sub-title{
+  color: #757575;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.resume-item .paragraph{
+  color: #757575;
+}
+.resume-button{
+  margin-top: 50px;
+  text-align: center;
 }
